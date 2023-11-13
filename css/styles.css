@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
+    color: #434455;
 
 }
 
@@ -15,16 +16,16 @@ body {
 
 
 .logo-color {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 /* Header */
 .logo {
-        color: #2E2F42;
+        color: #4D5AE5;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -36,6 +37,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
 
 .contacts-menu-link {
     color: #434455;
@@ -51,10 +53,6 @@ body {
     color: #404BBF;
 }
  
-.underline:active {
-    text-decoration: underline ;
-    color: #404BBF;
-}
 
 .contacts-menu-link:focus,
 .contacts-menu-link:hover {
@@ -72,7 +70,7 @@ body {
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
  }
 
 .hero-button {
@@ -85,7 +83,7 @@ body {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.04;
+        letter-spacing: 0.04em;
 }
 
 
@@ -113,6 +111,7 @@ body {
 }
 
 .advantages-menu-text {
+    color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -163,11 +162,10 @@ body {
 }
 
 .our-team-menu-text {
-    color: #434455;
         text-align: center;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 /* Section Portfolio */
@@ -192,7 +190,7 @@ body {
 }
 
 .portfolio-menu-text {
-    color: ;
+    color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -204,13 +202,17 @@ body {
 }
 
 .footer-logo {
-    color: #F4F4FD;
+    color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+}
+
+.logo-part {
+    color: #F4F4FD;
 }
 
 .page-footer-text {
